@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>CALCULADORA</title>
+</head>
+<body>
+
+    <div class="contenedor">
+
+       <form action="">
+         <input type="text" id="numero1">
+         <p>+</p>
+         <input type="text" id="numero2">
+         <p>=</p>
+         <input type="text" id="resultado" readonly> 
+         <!--readonly para que nos e pueda modificar-->
+         <input type="button" onclick="suma()" class="btn" value="Resultado">
+         <!--onclick permite que al presionar el boton ejecute codigo javascript, la funcion suma-->
+        </form>
+
+    </div>
+
+    <script src='calculadora.js'> </script>
+
+</body>
+</html>
